@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('static/fonts/AvenirNext-Bold.ttf') format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: 'Avenir Next';
+    color: white;
+    background: url('static/img/Background.jpg') repeat center;
+}
+
+.widget {
+    width: 615px;
+    height: 410px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.layout-block {
+    float: left;
+    width: 205px;
+    height: 205px;
+    position: relative;
+}
+
+.layout-half-block {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+}
+
+.block1 {
+    background-color: #06b3db;
+}
+
+.block2 {
+    background-color: #4ed486;
+}
+
+.block3 {
+    background-color: #6139f6;
+}
+
+.block4 {
+    background-color: #e3b63d;
+}
+
+.block5 {
+    background-color: #dc3d66;
+}
+
+.block6 {
+    background-color: #bd54cd;
+}
+
+.block5-1 {
+    background-color: rgb(189, 53, 89);
+    box-shadow: inset 0px 0px 35px 0px rgba(39, 36, 37, 0.22);
+}
+
+.layout-block > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout-block > p{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.block1 img,
+.block2 img,
+.block3 img {
+    margin-top: 45px;
+}
+
+.block4 img {
+    margin-top: 40px;
+}
+
+.block5 img {
+    margin-top: 20px;
+}
+
+.block6 img {
+    margin-top: 55px;
+}
+
+.block1 p,
+.block2 p,
+.block3 p {
+    margin-bottom: 45px;
+}
+
+.block4 p,
+.block6 p {
+    margin-bottom: 38px;
+}
+
+.weather-list ul{
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.weather-list li {
+    display: inline-block;
+    width: 23%;
+    height: 80px;
+    text-align: center;
+}
+
+.weather-list img {
+    width: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+.weather-list p {
+    margin: 0;
+    padding: 0;
+}
+
